@@ -1,0 +1,44 @@
+Classes should be open for extension but closed for modification. This is called the Open-Closed Principle
+Check project DP.P001.OpenClosePrinciple.Console for rore details
+
+OCPAreaCalculator class is the item that is closed for modification. 
+We can created addition classes like OCPcircle and OCPSquare and will get the Area property back. 
+
+-----------------------------------------------------------------------------------------------------
+
+Create a new branch on GitHub 001-OpenClosePrinciple from Main
+
+Than do following actions in local
+
+C:\2024-CSharp-Design-Patterns>git fetch
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+  * main
+    remotes/origin/001-OpenClosePrinciple
+    remotes/origin/HEAD -> origin/main
+    remotes/origin/main
+
+C:\2024-CSharp-Design-Patterns>git branch --track 001-OpenClosePrinciple origin/001-OpenClosePrinciple
+  branch '001-OpenClosePrinciple' set up to track 'origin/001-OpenClosePrinciple'.
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+    001-OpenClosePrinciple
+  * main
+    remotes/origin/001-OpenClosePrinciple
+    remotes/origin/HEAD -> origin/main
+    remotes/origin/main
+
+C:\2024-CSharp-Design-Patterns>git switch 001-OpenClosePrinciple
+  Switched to branch '001-OpenClosePrinciple'
+  M       Documents/00 Design Patterns Covered.txt
+  Your branch is up to date with 'origin/001-OpenClosePrinciple'.
+
+C:\2024-CSharp-Design-Patterns>git branch -vv
+  * 001-OpenClosePrinciple 7d814d1 [origin/001-OpenClosePrinciple] Environment initial setup
+    main                   7d814d1 [origin/main] Environment initial setup
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+

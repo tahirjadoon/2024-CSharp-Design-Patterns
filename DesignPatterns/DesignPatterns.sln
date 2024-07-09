@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core", "DP.Core\DP.Core.csproj", "{4D2D94B5-A7A0-4DFB-8212-F96B73A22AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P001.OpenClosePrinciple.ConsoleApp", "DP.P001.OpenClosePrinciple.ConsoleApp\DP.P001.OpenClosePrinciple.ConsoleApp.csproj", "{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D2D94B5-A7A0-4DFB-8212-F96B73A22AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2D94B5-A7A0-4DFB-8212-F96B73A22AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2D94B5-A7A0-4DFB-8212-F96B73A22AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2D94B5-A7A0-4DFB-8212-F96B73A22AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DBF2B5D-D98B-4E2A-9BDC-29068B555FAE}
+	EndGlobalSection
+EndGlobal

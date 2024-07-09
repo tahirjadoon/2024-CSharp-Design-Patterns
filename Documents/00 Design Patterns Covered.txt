@@ -18,3 +18,7 @@ Behavioral patterns deal with how objects interact with one another.
 	• The Iterator pattern
 	• The Observer pattern
 	• The Strategy pattern
+	
+In Visual Studio, set the font to one that supports ligatures
+	• CaskaydiaCove Nerd Font Mono, which you can find free at nerdfonts.com
+	• Ligatures are special characters in a font that combine two (or more) troublesome characters into one.
