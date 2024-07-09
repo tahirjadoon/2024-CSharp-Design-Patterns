@@ -1,0 +1,20 @@
+
+Creational patterns deal with the creation of objects beyond simply using the new keyword.
+	• The Simple Factory (technically not a pattern)
+	• The Factory Method pattern
+	• The Abstract Factory pattern
+	• The Builder pattern
+	• The Object Pool pattern
+	• The Singleton pattern
+	
+Structural patterns deal with the way that you structure your classes to maximize flexibility, reduce tight coupling, and help you focus on reusability.
+	• The Decorator pattern
+	• The Façade pattern
+	• The Composite pattern
+	• The Bridge pattern
+
+Behavioral patterns deal with how objects interact with one another.
+	• The Command pattern
+	• The Iterator pattern
+	• The Observer pattern
+	• The Strategy pattern
