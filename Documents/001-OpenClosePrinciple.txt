@@ -39,6 +39,19 @@ C:\2024-CSharp-Design-Patterns>git branch -vv
 
 -----------------------------------------------------------------------------------------------------
 
+merge to main 
+
+C:\2024-CSharp-Design-Patterns>git switch main
+  Switched to branch 'main'
+  Your branch is up to date with 'origin/main'.
+
+C:\2024-CSharp-Design-Patterns>git merge 001-OpenClosePrinciple
+
+C:\2024-CSharp-Design-Patterns>git push origin
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tahirjadoon/2024-CSharp-Design-Patterns.git
+   7d814d1..02bbd7e  main -> main
+
 
 
 
