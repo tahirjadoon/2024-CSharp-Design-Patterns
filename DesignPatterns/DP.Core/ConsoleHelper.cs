@@ -4,6 +4,11 @@ public class ConsoleHelper
 {
     static object writeLock = new object();
 
+    public static void WriteEmptyLine()
+    {
+        Console.WriteLine();
+    }
+
     public static void WriteLine(string message)
     {
         WriteLine(message, null);

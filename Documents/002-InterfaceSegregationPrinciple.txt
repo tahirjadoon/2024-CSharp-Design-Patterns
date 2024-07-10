@@ -1,0 +1,67 @@
+No class should be forced to implement an interface that it doesn’t use, nor should it depend on a
+method it doesn’t use.
+
+We can add to class multiple interfaces and the implemention will be per the interfaces implemented.
+
+Check project DP.P002.InterfaceSegregationPrinciple.ConsoleApp for more details
+
+ITwoDimensionalShape.cs is stand alone nterface
+IThreeDimensionalShape.cs implements ITwoDimensionalShape
+    A three-dimensional shape uses all the same parts as a two-dimensional shape but adds depth
+
+ISPCube class implements IThreeDimensionalShape
+ISPSquare class implements ITwoDimensionalShape
+
+-----------------------------------------------------------------------------------------------------
+
+Create a new local branch
+then either add content or just publish the branch to remote
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+    001-OpenClosePrinciple
+    * main
+    remotes/origin/001-OpenClosePrinciple
+    remotes/origin/HEAD -> origin/main
+    remotes/origin/main
+
+C:\2024-CSharp-Design-Patterns>git switch -c 002-InterfaceSegregationPrinciple
+    Switched to a new branch '002-InterfaceSegregationPrinciple'
+
+C:\2024-CSharp-Design-Patterns>git push -u origin 002-InterfaceSegregationPrinciple
+    Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+    remote:
+    remote: Create a pull request for '002-InterfaceSegregationPrinciple' on GitHub by visiting:
+    remote:      https://github.com/tahirjadoon/2024-CSharp-Design-Patterns/pull/new/002-InterfaceSegregationPrinciple
+    remote:
+    To https://github.com/tahirjadoon/2024-CSharp-Design-Patterns.git
+    * [new branch]      002-InterfaceSegregationPrinciple -> 002-InterfaceSegregationPrinciple
+    branch '002-InterfaceSegregationPrinciple' set up to track 'origin/002-InterfaceSegregationPrinciple'.
+
+C:\2024-CSharp-Design-Patterns>git fetch
+
+C:\2024-CSharp-Design-Patterns>git pull
+    Already up to date.
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+    001-OpenClosePrinciple
+    * 002-InterfaceSegregationPrinciple
+    main
+    remotes/origin/001-OpenClosePrinciple
+    remotes/origin/002-InterfaceSegregationPrinciple
+    remotes/origin/HEAD -> origin/main
+    remotes/origin/main
+
+-----------------------------------------------------------------------------------------------------
+
+merge to main 
+
+C:\2024-CSharp-Design-Patterns>git switch main
+  Switched to branch 'main'
+  Your branch is up to date with 'origin/main'.
+
+C:\2024-CSharp-Design-Patterns>git merge 002-InterfaceSegregationPrinciple
+
+C:\2024-CSharp-Design-Patterns>git push origin
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tahirjadoon/2024-CSharp-Design-Patterns.git
+   7d814d1..02bbd7e  main -> main

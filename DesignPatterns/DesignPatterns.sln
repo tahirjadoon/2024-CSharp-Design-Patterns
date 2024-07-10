@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Core", "DP.Core\DP.Core.csproj", "{4D2D94B5-A7A0-4DFB-8212-F96B73A22AEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.Core", "DP.Core\DP.Core.csproj", "{4D2D94B5-A7A0-4DFB-8212-F96B73A22AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P001.OpenClosePrinciple.ConsoleApp", "DP.P001.OpenClosePrinciple.ConsoleApp\DP.P001.OpenClosePrinciple.ConsoleApp.csproj", "{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P001.OpenClosePrinciple.ConsoleApp", "DP.P001.OpenClosePrinciple.ConsoleApp\DP.P001.OpenClosePrinciple.ConsoleApp.csproj", "{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P002.InterfaceSegregationPrinciple.ConsoleApp", "DP.P002.InterfaceSegregationPrinciple.ConsoleApp\DP.P002.InterfaceSegregationPrinciple.ConsoleApp.csproj", "{1FF91FA7-5832-4F51-840E-E9ACFE8BCC71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFAC7F29-0402-4B5C-BCBE-009E83E1605B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF91FA7-5832-4F51-840E-E9ACFE8BCC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF91FA7-5832-4F51-840E-E9ACFE8BCC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF91FA7-5832-4F51-840E-E9ACFE8BCC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF91FA7-5832-4F51-840E-E9ACFE8BCC71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
