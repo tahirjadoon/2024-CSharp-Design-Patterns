@@ -1,0 +1,74 @@
+DependencyInversionPrinciple
+
+When you first learn how to design an inheritance hierarchy, you learn that high-level objects establish
+a base, while low-level objects form dependencies on that base.
+
+The Dependency Inversion Principle
+(DIP) flips this upside down and forms the basis of a very important practice called decoupling.
+
+A. High-level classes or modules should not depend on low-level classes or modules and both should
+depend on abstractions.
+B. Abstractions should not depend on implementation details but instead details should depend
+upon abstractions.
+
+Lamp and Button Example: 
+    The notion that a lamp is a high-level object
+    while the button is a low-level object feels intuitive.
+
+Check project DP.P003.DependencyInversionPrinciple.ConsoleApp for more details
+
+
+-----------------------------------------------------------------------------------------------------
+
+C:\00Learning\Learning-Examples\C-Sharp\2024-CSharp-Design-Patterns>git branch -a
+  001-OpenClosePrinciple
+  002-InterfaceSegregationPrinciple
+* main
+  remotes/origin/001-OpenClosePrinciple
+  remotes/origin/002-InterfaceSegregationPrinciple
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+C:\00Learning\Learning-Examples\C-Sharp\2024-CSharp-Design-Patterns>git switch -c 003-DependencyInversionPrinciple
+Switched to a new branch '003-DependencyInversionPrinciple'
+
+C:\00Learning\Learning-Examples\C-Sharp\2024-CSharp-Design-Patterns>git push -u origin 003-DependencyInversionPrinciple
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for '003-DependencyInversionPrinciple' on GitHub by visiting:
+remote:      https://github.com/tahirjadoon/2024-CSharp-Design-Patterns/pull/new/003-DependencyInversionPrinciple
+remote:
+To https://github.com/tahirjadoon/2024-CSharp-Design-Patterns.git
+ * [new branch]      003-DependencyInversionPrinciple -> 003-DependencyInversionPrinciple
+branch '003-DependencyInversionPrinciple' set up to track 'origin/003-DependencyInversionPrinciple'.
+
+C:\00Learning\Learning-Examples\C-Sharp\2024-CSharp-Design-Patterns>git fetch
+
+C:\00Learning\Learning-Examples\C-Sharp\2024-CSharp-Design-Patterns>git pull
+Already up to date.
+
+C:\00Learning\Learning-Examples\C-Sharp\2024-CSharp-Design-Patterns>git branch -a
+  001-OpenClosePrinciple
+  002-InterfaceSegregationPrinciple
+* 003-DependencyInversionPrinciple
+  main
+  remotes/origin/001-OpenClosePrinciple
+  remotes/origin/002-InterfaceSegregationPrinciple
+  remotes/origin/003-DependencyInversionPrinciple
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+-----------------------------------------------------------------------------------------------------
+
+merge to main 
+
+C:\2024-CSharp-Design-Patterns>git switch main
+  Switched to branch 'main'
+  Your branch is up to date with 'origin/main'.
+
+C:\2024-CSharp-Design-Patterns>git merge 003-DependencyInversionPrinciple
+
+C:\2024-CSharp-Design-Patterns>git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tahirjadoon/2024-CSharp-Design-Patterns.git
+   7d814d1..02bbd7e  main -> main
