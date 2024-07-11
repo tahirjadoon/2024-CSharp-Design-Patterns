@@ -1,0 +1,44 @@
+Switch to main and then 
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+
+C:\2024-CSharp-Design-Patterns>git switch -c 004-BikeBuild-NoPattern
+
+C:\2024-CSharp-Design-Patterns>git push -u origin 004-BikeBuild-NoPattern
+
+C:\2024-CSharp-Design-Patterns>git fetch
+
+C:\2024-CSharp-Design-Patterns>git pull
+
+-----------------------------------------------------------------------------------------------------
+
+Class library to keep the code dry: DP.BicycleBuildBase
+    Enums: 
+        • ZBicycleGeometries.cs
+        • ZBicyclePaintColors.cs
+        • ZManufacturingStatus.cs
+        • ZSuspensionTypes.cs
+        • ZBikeTypes
+    
+    Abstract Class
+        • Bicycle
+
+    Concrete Classes
+        • RoadBike
+        • MountainBike
+        • Recumbent
+        • Cruiser
+
+
+
+ConsoleApp to build the project: DP.P004.BicycleBuild_NoPattern.ConsoleApp
+
+To run the project:
+    Open the terminal window in Visual Studio Code (Ctrl + `) or run Powershell
+    CD into the DP.P004.BicycleBuild_NoPattern.ConsoleApp 
+    Type 
+        dotnet run hillcrest
+        dotnet run mountainbike
+        dotnet run cruiser
+        dotnet run recumbent
+        dotnet run roadbike

@@ -14,6 +14,22 @@ public class ConsoleHelper
         WriteLine(message, null);
     }
 
+    public static void TitleWrite(string message)
+    {
+        WriteLine(message, ConsoleColor.Magenta);
+        WriteEmptyLine();
+    }
+
+    public static void ErrorWrite(string message)
+    {
+        WriteLine(message, ConsoleColor.Red);
+    }
+
+    public static void SuccessWrite(string message)
+    {
+        WriteLine(message, ConsoleColor.Green);
+    }
+
     public static void WriteLine(string message, ConsoleColor? color)
     {
         var defaultColor = Console.ForegroundColor;
