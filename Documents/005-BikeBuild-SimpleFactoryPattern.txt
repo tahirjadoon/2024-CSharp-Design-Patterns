@@ -1,0 +1,31 @@
+Switch to main and then 
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+
+C:\2024-CSharp-Design-Patterns>git switch -c 005-BikeBuild-SimpleFactoryPattern
+
+C:\2024-CSharp-Design-Patterns>git push -u origin 005-BikeBuild-SimpleFactoryPattern
+
+C:\2024-CSharp-Design-Patterns>git fetch
+
+C:\2024-CSharp-Design-Patterns>git pull
+
+-----------------------------------------------------------------------------------------------------
+
+Still using the class library: DP.BicycleBuildBase
+    Check: 004-BikeBuild-NoPattern.txt 
+
+ConsoleApp to build the project: DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp
+    classes: 
+        SimpleBicycleFactory.cs 
+        
+
+To run the project:
+    Open the terminal window in Visual Studio Code (Ctrl + `) or run Powershell
+    CD into the DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp 
+    Type 
+        dotnet run hillcrest
+        dotnet run mountainbike
+        dotnet run cruiser
+        dotnet run recumbent
+        dotnet run roadbike

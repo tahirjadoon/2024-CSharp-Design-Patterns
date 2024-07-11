@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P002.InterfaceSegregatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P003.DependencyInversionPrinciple.ConsoleApp", "DP.P003.DependencyInversionPrinciple.ConsoleApp\DP.P003.DependencyInversionPrinciple.ConsoleApp.csproj", "{A61F84A7-F4CC-452B-9F7C-9D13A2829B91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.BicycleBuildBase", "DP.BicycleBuildBase\DP.BicycleBuildBase.csproj", "{0777B791-AD0C-4F47-B2F9-71C87DEDADBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.BicycleBuildBase", "DP.BicycleBuildBase\DP.BicycleBuildBase.csproj", "{0777B791-AD0C-4F47-B2F9-71C87DEDADBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P004.BicycleBuild_NoPattern.ConsoleApp", "DP.P004.BicycleBuild_NoPattern.ConsoleApp\DP.P004.BicycleBuild_NoPattern.ConsoleApp.csproj", "{00EE0B75-2E3F-4CF1-A23D-C1D48F55250F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P004.BicycleBuild_NoPattern.ConsoleApp", "DP.P004.BicycleBuild_NoPattern.ConsoleApp\DP.P004.BicycleBuild_NoPattern.ConsoleApp.csproj", "{00EE0B75-2E3F-4CF1-A23D-C1D48F55250F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp", "DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp\DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp.csproj", "{941240FD-33E4-4CF8-8661-92BC5776509E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{00EE0B75-2E3F-4CF1-A23D-C1D48F55250F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00EE0B75-2E3F-4CF1-A23D-C1D48F55250F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00EE0B75-2E3F-4CF1-A23D-C1D48F55250F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941240FD-33E4-4CF8-8661-92BC5776509E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941240FD-33E4-4CF8-8661-92BC5776509E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941240FD-33E4-4CF8-8661-92BC5776509E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941240FD-33E4-4CF8-8661-92BC5776509E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
