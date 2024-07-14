@@ -5,23 +5,27 @@ using System.Numerics;
 
 namespace DP.BicycleBuildBase;
 
-public abstract class Bicycle
+/// <summary>
+/// Updated via 006-BikeBuild-FactoryMethodPattern, interface implemented and access modifiers updates
+/// 
+/// </summary>
+public abstract class Bicycle : IBicycle
 {
     protected Bicycle()
     {
-        ModelName = string.Empty;
+        ModelName = ZBikeModelNames.Unknown;
         SerialNumber = Guid.NewGuid().ToString();
         Year = DateTime.Now.Year;
         BuildStatus = ZManufacturingStatus.Specified;
     }
 
-    protected string ModelName { get; init; }
-    private int Year { get; set; }
-    private string SerialNumber { get; }
-    protected ZBicyclePaintColors Color { get; init; }
-    protected ZBicycleGeometries Geometry { get; init; }
-    protected ZSuspensionTypes Suspension { get; init; }
-    private ZManufacturingStatus BuildStatus { get; set; }
+    public ZBikeModelNames ModelName { get; init; }
+    public int Year { get; set; }
+    public string SerialNumber { get; }
+    public ZBicyclePaintColors Color { get; init; }
+    public ZBicycleGeometries Geometry { get; init; }
+    public ZSuspensionTypes Suspension { get; init; }
+    public ZManufacturingStatus BuildStatus { get; set; }
 
     public void Build()
     {
@@ -40,7 +44,7 @@ public abstract class Bicycle
             PrintBuildStatus();
         }
 
-        ConsoleHelper.WriteLine($"{Year} {ModelName} Bicycle serial number {SerialNumber} manufacturing complete!", ConsoleColor.Cyan);
+        ConsoleHelper.WriteLine($"{Year} {ModelName.GetEnumDescription()} Bicycle serial number {SerialNumber} manufacturing complete!", ConsoleColor.Cyan);
         BuildStatus = ZManufacturingStatus.Complete;
         PrintBuildStatus();
     }
@@ -52,6 +56,6 @@ public abstract class Bicycle
 
     public override string ToString()
     {
-        return $"Your bicycle is a {Color.GetEnumDescription()} {ModelName}, with a {Suspension.GetEnumDescription()} suspension and a(n) {Geometry.GetEnumDescription()} geometry.";
+        return $"Your bicycle is a {Color.GetEnumDescription()} {ModelName.GetEnumDescription()}, with a {Suspension.GetEnumDescription()} suspension and a(n) {Geometry.GetEnumDescription()} geometry.";
     }
 }

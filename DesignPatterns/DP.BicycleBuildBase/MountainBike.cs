@@ -9,7 +9,7 @@ public class MountainBike : Bicycle
 {
     public MountainBike()
     {
-        ModelName = "Palo Duro Canyon Ranger";
+        ModelName = ZBikeModelNames.PaloDuroCanyonRanger;
         Suspension = ZSuspensionTypes.Full;
         Color = ZBicyclePaintColors.Black;
         Geometry = ZBicycleGeometries.Upright;

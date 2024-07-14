@@ -10,7 +10,7 @@ public class RecumbentBike : Bicycle
 {
     public RecumbentBike()
     {
-        ModelName = "Big Bend";
+        ModelName = ZBikeModelNames.BigBend;
         Suspension = ZSuspensionTypes.Front;
         Color = ZBicyclePaintColors.White;
         Geometry = ZBicycleGeometries.Recumbent;

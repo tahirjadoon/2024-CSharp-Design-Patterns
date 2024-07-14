@@ -2,11 +2,14 @@
 
 namespace DP.BicycleBuildBase;
 
+/// <summary>
+/// updated: 006-BikeBuild-FactoryMethodPattern
+/// </summary>
 public class CruiserBike : Bicycle
 {
     public CruiserBike()
     {
-        ModelName = "Galveston Cruiser";
+        ModelName = ZBikeModelNames.GalvestonCruiser;
         Suspension = ZSuspensionTypes.Hardtail;
         Color = ZBicyclePaintColors.Red;
         Geometry = ZBicycleGeometries.Upright;

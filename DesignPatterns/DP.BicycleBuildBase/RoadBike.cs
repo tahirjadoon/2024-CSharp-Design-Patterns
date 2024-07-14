@@ -9,7 +9,7 @@ public class RoadBike : Bicycle
 {
     public RoadBike()
     {
-        ModelName = "Hillcrest";
+        ModelName = ZBikeModelNames.Hillcrest;
         Suspension = ZSuspensionTypes.Hardtail;
         Color = ZBicyclePaintColors.Blue;
         Geometry = ZBicycleGeometries.Upright;

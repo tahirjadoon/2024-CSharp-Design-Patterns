@@ -1,0 +1,65 @@
+Switch to main and then 
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+
+C:\2024-CSharp-Design-Patterns>git switch -c 006-BikeBuild-FactoryMethodPattern
+
+C:\2024-CSharp-Design-Patterns>git push -u origin 006-BikeBuild-FactoryMethodPattern
+
+C:\2024-CSharp-Design-Patterns>git fetch
+
+C:\2024-CSharp-Design-Patterns>git pull
+
+-----------------------------------------------------------------------------------------------------
+
+Still using the class library: DP.BicycleBuildBase
+    Check: 004-BikeBuild-NoPattern.txt 
+
+Class diagram is placed in the doucments folder
+    Check: 006-BikeBuild-FactoryMethodPattern Class-Diagram.pdf
+
+DP.BicycleBuildBase 
+    IBicycle ew interface created
+    Bicycle.cs abstract Class 
+        IBicycleInterface Added
+        access modifiers changed to public
+
+    CruiserBike.cs
+        updated ModelName
+    Mountainbike.cs
+        updated ModelName
+    RecumbentBike.cs
+        updated ModelName
+    RoadBike.cs
+        updated ModelName
+
+DP.P006.BicycleBuild_FactoryMethodPattern.ConsoleApp
+    BicycleCreator.cs
+    AlpineCreator.cs
+    DallasCreator
+
+-----------------------------------------------------------------------------------------------------
+
+Run Result:
+    
+    
+Factory Methd Pattern implementation!
+
+
+Lets make a bike via DallasCreator
+Manufacturing a Upright frame...
+        Status: FrameManufactured
+Painting the frame Blue
+        Status: Painted
+2024 Hillcrest Bicycle serial number d4201921-f1b4-412f-b725-8191bfbc506c manufacturing complete!
+        Status: Complete
+
+Lets make a bike via AlpineCreator
+Manufacturing a Upright frame...
+        Status: FrameManufactured
+Painting the frame Black
+        Status: Painted
+Mounting the Full suspension.
+        Status: SuspensionMounted
+2024 Palo Duro Canyon Ranger Bicycle serial number 9eab7fa8-98a0-46a2-89ec-ed5b731781ba manufacturing complete!
+        Status: Complete
