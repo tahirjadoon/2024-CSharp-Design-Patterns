@@ -1,0 +1,93 @@
+Switch to main and then 
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+
+C:\2024-CSharp-Design-Patterns>git switch -c 007-BikeBuild-AbstractFactoryPattern
+
+C:\2024-CSharp-Design-Patterns>git push -u origin 007-BikeBuild-AbstractFactoryPattern
+
+C:\2024-CSharp-Design-Patterns>git fetch
+
+C:\2024-CSharp-Design-Patterns>git pull
+
+-----------------------------------------------------------------------------------------------------
+
+A bicycle is made of lots of different parts
+    • bicycle frame and the handlebars will be manufactured inhouse
+    • The other parts, such as the wheels, tires, brakes, and gears, can be outsourced for the initial production of the bicycles
+    • The road bike uses dropped handlebars, while mountain bikes use a flat handlebar design. You shouldn’t interchange these parts.
+
+Our bicycle design consists of four families of bicycles:
+    • Road bicycles (the Hillcrest)
+    • Mountain bicycles (The Palo Duro Canyon Ranger)
+    • Recumbent bicycles (The Big Bend)
+    • Cruiser bicycles (The Galveston Cruiser)
+
+Each type has a particular type of frame, as well as a different design for handlebars. We can say we
+will be making four families of bicycle components. 
+
+When you encounter a problem that involves
+families of related objects, you should automatically think about the abstract factory pattern
+
+-----------------------------------------------------------------------------------------------------
+
+Still using the class library: DP.BicycleBuildBase
+    Check: 004-BikeBuild-NoPattern.txt 
+
+Class diagram is placed in the doucments folder
+    Check: 07-BikeBuild-AbstractFactoryPattern Class-Diagram.pdf
+
+
+DP.BicycleBuildBase 
+    Enums
+        ZBicycleBrakeTypes.cs
+        ZBicycleShifterTypes.cs
+        ZBicycleSeatSaddleTypes.cs 
+
+    components 
+        Brakes
+            IBikeBrake.cs
+            AbstractBikeBrakes.cs   => Abstract class that implements the IBikeBrake interface
+            BrakeTypeCaliper.cs     => inherits abstract class AbstractBikeBrakes
+            BrakeTypeCoaster.cs     => inherits abstract class AbstractBikeBrakes
+            BrakeTypeDisc.cs        => inherits abstract class AbstractBikeBrakes
+        Drivetrain
+            IBikeDrivetrain.cs
+            AbstractBikeDrivetrain.cs   => Abstract class that implements the IBikeDrivetrain interface
+            DrivetrainCrusierBike.cs    => inherits abstract class AbstractBikeDrivetrain
+            DrivetrainMountainBike.cs   => inherits abstract class AbstractBikeDrivetrain
+            DrivetrainRecumbentBike.cs  => inherits abstract class AbstractBikeDrivetrain
+            DrivetrainRoadBike.cs       => inherits abstract class AbstractBikeDrivetrain
+        Frame 
+            IBikeFrame.cs
+            AbstractBikeFrame.cs    => Abstract class that implements the IBikeFrame interface
+            FrameCruiserBike.cs     => inherits abstract class AbstractBikeFrame
+            FrameMountainBike.cs    => inherits abstract class AbstractBikeFrame
+            FrameRecumbentBike.cs   => inherits abstract class AbstractBikeFrame
+            FrameRoadBike.cs        => inherits abstract class AbstractBikeFrame
+        Handlebars
+            IBikeHandlebars.cs          
+            AbstractBikeHandlebars.cs   => Abstract class that implements the IBikeHandlebars interface
+            HandlebarsCruiserBike.cs    => inherits abstract class AbstractBikeHandlebars
+            HandlebarsMountianBike.cs   => inherits abstract class AbstractBikeHandlebars
+            HandlebarsRecumbentBike.cs  => inherits abstract class AbstractBikeHandlebars
+            HandlebarsRoadBike.cs       => inherits abstract class AbstractBikeHandlebars
+        Seats
+            IBikeSeats.cs
+            AbstractBikeSeat.cs     => Abstract class that implements the IBikeSeats interface
+            SeatCrusierBike.cs      => inherits abstract class AbstractBikeSeat
+            SeatGeneric.cs          => inherits abstract class AbstractBikeSeat
+            SeatRecumbentBike.cs    => inherits abstract class AbstractBikeSeat
+        Suspensions
+            IBikeSuspension.cs
+            AbstractBikeSuspension.cs   => Abstract class that implements the IBikeSuspension interface
+            SuspensionFront.cs          => inherits abstract class AbstractBikeSuspension
+            SuspensionFull.cs           => inherits abstract class AbstractBikeSuspension
+            SuspensionHardTail.cs       => inherits abstract class AbstractBikeSuspension
+
+DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp
+    IBicycleFactory.cs
+    CrusierBicycleFactory.cs    => implements interface IBicycleFactory, uses concreate classes under LIB/Components
+    MountainBicycleFactory.cs   => implements interface IBicycleFactory, uses concreate classes under LIB/Components
+    RecumbentBicycleFactory.cs  => implements interface IBicycleFactory, uses concreate classes under LIB/Components
+    RoadBicycleFactory.cs       => implements interface IBicycleFactory, uses concreate classes under LIB/Components
