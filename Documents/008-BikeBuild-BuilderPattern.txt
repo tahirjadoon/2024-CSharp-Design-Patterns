@@ -1,0 +1,56 @@
+Switch to main and then 
+
+C:\2024-CSharp-Design-Patterns>git branch -a
+
+C:\2024-CSharp-Design-Patterns>git switch -c 008-BikeBuild-BuilderPattern
+
+C:\2024-CSharp-Design-Patterns>git push -u origin 008-BikeBuild-BuilderPattern
+
+C:\2024-CSharp-Design-Patterns>git fetch
+
+C:\2024-CSharp-Design-Patterns>git pull
+
+-----------------------------------------------------------------------------------------------------
+
+It is used to make complex objects using a flexible set of steps
+
+The builder pattern consists of a builder interface, a director to control the creation process, 
+and concrete builders based on the builder interface to produce specific products.
+
+-----------------------------------------------------------------------------------------------------
+
+Still using the class library: DP.BicycleBuildBase
+    Check:  004-BikeBuild-NoPattern.txt [initial]
+            007-BikeBuild-AbstractFactoryPattern.txt [Components created]
+
+Class diagram is placed in the doucments folder
+    Check: 008-BikeBuild-BuilderPattern Class-Diagram.pdf
+
+-----------------------------------------------------------------------------------------------------
+
+DP.BicycleBuildBase
+    Use components created via 007-BikeBuild-AbstractFactoryPattern
+
+DP.P008.BikeBuild_BuilderPattern.ConsoleApp
+    
+    builders will be producing – that is, the product which is any type of bicycle
+        IBicycleProduct.cs 
+        BicycleProduct.cs       => implements IBicycleProduct
+
+    define the various builders for the bicycle lines that will create different components 
+        IBicycleBuilder.cs 
+            Here IBicycleProduct is used to get bicycle info via GetProduct()
+            along with other build steps like buildFrame etc 
+
+        concrete builders for mountain, road bikes and others 
+            BuilderCruiserBike.cs   => implements IBicycleBuilder
+            BuilderMountainBike     => implements IBicycleBuilder
+            BuilderRecumbentBike    => implements IBicycleBuilder
+            BuilderRoadBike.cs      => implements IBicycleBuilder
+
+        Director.cs 
+            This is also a master builder 
+            A director can create anything, given a builder. 
+            The director’s job is to call the methods in the builder according to any business logic required and to return the product created by the builder
+        
+        
