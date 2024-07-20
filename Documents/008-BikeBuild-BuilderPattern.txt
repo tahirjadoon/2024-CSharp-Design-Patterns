@@ -12,7 +12,7 @@ C:\2024-CSharp-Design-Patterns>git pull
 
 -----------------------------------------------------------------------------------------------------
 
-It is used to make complex objects using a flexible set of steps
+Builder Design Pattern builds a complex object using many simple objects and a step-by-step approach. 
 
 The builder pattern consists of a builder interface, a director to control the creation process, 
 and concrete builders based on the builder interface to produce specific products.
