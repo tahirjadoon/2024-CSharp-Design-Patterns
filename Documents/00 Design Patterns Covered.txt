@@ -1,8 +1,8 @@
 
-Creational patterns deal with the creation of objects beyond simply using the new keyword.
+Creational patterns deal with how the objects are created and utilized in an application.
 	• The Simple Factory (technically not a pattern)
 	• The Factory Method pattern
-	• The Abstract Factory pattern
+	• The Abstract Factory pattern:  provides a way to encapsulate a group of individual factories that have a common theme
 	• The Builder pattern
 	• The Object Pool pattern
 	• The Singleton pattern
