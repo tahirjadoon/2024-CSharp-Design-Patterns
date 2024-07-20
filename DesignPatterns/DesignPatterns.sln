@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P006.BicycleBuild_Factor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp", "DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp\DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp.csproj", "{3E3CCC44-549C-4E2B-B7A4-F9ACB3DC4CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P008.BikeBuild_BuilderPattern.ConsoleApp", "DP.P008.BikeBuild_BuilderPattern.ConsoleApp\DP.P008.BikeBuild_BuilderPattern.ConsoleApp.csproj", "{FC3EB290-293C-49B2-A922-EEDCEAB7ED05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P008.BikeBuild_BuilderPattern.ConsoleApp", "DP.P008.BikeBuild_BuilderPattern.ConsoleApp\DP.P008.BikeBuild_BuilderPattern.ConsoleApp.csproj", "{FC3EB290-293C-49B2-A922-EEDCEAB7ED05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P009.LaptopBuild_BuilderPattern.ConsoleApp", "DP.P009.LaptopBuild_BuilderPattern.ConsoleApp\DP.P009.LaptopBuild_BuilderPattern.ConsoleApp.csproj", "{B12A8263-A639-4940-8C2D-694B3AC075B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{FC3EB290-293C-49B2-A922-EEDCEAB7ED05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3EB290-293C-49B2-A922-EEDCEAB7ED05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3EB290-293C-49B2-A922-EEDCEAB7ED05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12A8263-A639-4940-8C2D-694B3AC075B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12A8263-A639-4940-8C2D-694B3AC075B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12A8263-A639-4940-8C2D-694B3AC075B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12A8263-A639-4940-8C2D-694B3AC075B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

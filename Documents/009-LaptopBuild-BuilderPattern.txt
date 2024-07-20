@@ -1,0 +1,20 @@
+-----------------------------------------------------------------------------------------------------
+
+Builder Design Pattern builds a complex object using many simple objects and a step-by-step approach. 
+
+The builder pattern consists of a builder interface, a director to control the creation process, 
+and concrete builders based on the builder interface to produce specific products.
+
+
+-----------------------------------------------------------------------------------------------------
+
+DP.P009.LaptopBuild_BuilderPattern.ConsoleApp
+    Product
+        IComputerProduct
+        ComputerProduct
+    Builder
+        IComputerBuilder
+        BuilderBasicComputer
+        BuilderGamingComputer
+    Director
+    Program.cs
