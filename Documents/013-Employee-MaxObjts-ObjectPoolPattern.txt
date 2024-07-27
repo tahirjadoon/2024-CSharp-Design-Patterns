@@ -1,0 +1,18 @@
+-----------------------------------------------------------------------------------------------------
+
+The object pool pattern creates an object that manages a collection of other objects.
+The client requests objects from the pool to use them and then releases them when it’s finished.
+
+-----------------------------------------------------------------------------------------------------
+
+DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp
+
+This uses the concurrent bag for the pool 
+
+Pool is initialized with max size
+
+When the obj is in the pool then it will get returned and removed. This will decrese the pool count 
+
+When obj released then it will be added back to the pool
+
+When no object in the pool remaining then will return an exception 

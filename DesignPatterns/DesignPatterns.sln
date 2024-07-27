@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P010.ReportBuild_Builder
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp", "DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp\DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp.csproj", "{EAF14807-26F6-452E-8F53-FCBB17284E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P012.Employee_ObjectPoolPattern.ConsoleApp", "DP.P012.Employee_ObjectPoolPattern.ConsoleApp\DP.P012.Employee_ObjectPoolPattern.ConsoleApp.csproj", "{EF87C3A3-48BC-4E57-BB5E-007CD6883417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P012.Employee_ObjectPoolPattern.ConsoleApp", "DP.P012.Employee_ObjectPoolPattern.ConsoleApp\DP.P012.Employee_ObjectPoolPattern.ConsoleApp.csproj", "{EF87C3A3-48BC-4E57-BB5E-007CD6883417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp", "DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp\DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp.csproj", "{A166E4F9-8D12-4155-B8BA-CAC68EDF067C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{EF87C3A3-48BC-4E57-BB5E-007CD6883417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF87C3A3-48BC-4E57-BB5E-007CD6883417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF87C3A3-48BC-4E57-BB5E-007CD6883417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A166E4F9-8D12-4155-B8BA-CAC68EDF067C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A166E4F9-8D12-4155-B8BA-CAC68EDF067C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A166E4F9-8D12-4155-B8BA-CAC68EDF067C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A166E4F9-8D12-4155-B8BA-CAC68EDF067C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
