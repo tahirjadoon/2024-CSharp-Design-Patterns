@@ -1,0 +1,16 @@
+-----------------------------------------------------------------------------------------------------
+
+The object pool pattern creates an object that manages a collection of other objects.
+The client requests objects from the pool to use them and then releases them when it’s finished.
+
+-----------------------------------------------------------------------------------------------------
+
+DP.BicycleBuildBase
+    Enum 
+        ZWelderTypes.cs
+    Robotics
+        Arms
+            WeldingArm.cs
+
+DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp
+    WeldingArmPool.cs

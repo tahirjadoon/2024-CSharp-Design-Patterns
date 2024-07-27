@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P008.BikeBuild_BuilderPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P009.LaptopBuild_BuilderPattern.ConsoleApp", "DP.P009.LaptopBuild_BuilderPattern.ConsoleApp\DP.P009.LaptopBuild_BuilderPattern.ConsoleApp.csproj", "{B12A8263-A639-4940-8C2D-694B3AC075B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P010.ReportBuild_BuilderPattern.ConsoleApp", "DP.P010.ReportBuild_BuilderPattern.ConsoleApp\DP.P010.ReportBuild_BuilderPattern.ConsoleApp.csproj", "{CFC19B80-C7AB-4D9C-8291-6042B8E4880A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P010.ReportBuild_BuilderPattern.ConsoleApp", "DP.P010.ReportBuild_BuilderPattern.ConsoleApp\DP.P010.ReportBuild_BuilderPattern.ConsoleApp.csproj", "{CFC19B80-C7AB-4D9C-8291-6042B8E4880A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp", "DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp\DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp.csproj", "{EAF14807-26F6-452E-8F53-FCBB17284E2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{CFC19B80-C7AB-4D9C-8291-6042B8E4880A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFC19B80-C7AB-4D9C-8291-6042B8E4880A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFC19B80-C7AB-4D9C-8291-6042B8E4880A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF14807-26F6-452E-8F53-FCBB17284E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF14807-26F6-452E-8F53-FCBB17284E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF14807-26F6-452E-8F53-FCBB17284E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF14807-26F6-452E-8F53-FCBB17284E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
