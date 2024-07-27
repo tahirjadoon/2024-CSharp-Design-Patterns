@@ -1,0 +1,15 @@
+-----------------------------------------------------------------------------------------------------
+
+The object pool pattern creates an object that manages a collection of other objects.
+The client requests objects from the pool to use them and then releases them when it’s finished.
+
+-----------------------------------------------------------------------------------------------------
+
+DP.P012.Employee_ObjectPoolPattern.ConsoleApp
+
+This uses the concurrent bag for the pool 
+
+
+When the obj is in the pool then it will get returned. On release the item will get added to the pool. 
+
+When no obj in the pool then the new obj will be created and returned. 
