@@ -12,5 +12,5 @@ DP.BicycleBuildBase
         Arms
             WeldingArm.cs
 
-DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp
+DP.P011.BikeBuild-Creational-ObjectPoolPattern.ConsoleApp
     WeldingArmPool.cs

@@ -15,7 +15,7 @@ C:\2024-CSharp-Design-Patterns>git pull
 Still using the class library: DP.BicycleBuildBase
     Check: 004-BikeBuild-NoPattern.txt 
 
-ConsoleApp to build the project: DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp
+ConsoleApp to build the project: DP.P005.BicycleBuild_Creational_SimpleFactoryPattern.ConsoleApp
     classes: 
         SimpleBicycleFactory.cs 
         

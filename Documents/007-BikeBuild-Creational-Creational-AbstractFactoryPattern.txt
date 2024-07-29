@@ -32,10 +32,10 @@ families of related objects, you should automatically think about the abstract f
 -----------------------------------------------------------------------------------------------------
 
 Still using the class library: DP.BicycleBuildBase
-    Check: 004-BikeBuild-NoPattern.txt 
+    Check: 004-BikeBuild-Creational-NoPattern.txt 
 
 Class diagram is placed in the doucments folder
-    Check: 07-BikeBuild-AbstractFactoryPattern Class-Diagram.pdf
+    Check: 07-BikeBuild-Creational-AbstractFactoryPattern Class-Diagram.pdf
 
 
 DP.BicycleBuildBase 
@@ -85,7 +85,7 @@ DP.BicycleBuildBase
             SuspensionFull.cs           => inherits abstract class AbstractBikeSuspension
             SuspensionHardTail.cs       => inherits abstract class AbstractBikeSuspension
 
-DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp
+DP.P007.BikeBuild_Creational_AbstractFactoryPattern.ConsoleApp
     IBicycleFactory.cs
     CrusierBicycleFactory.cs    => implements interface IBicycleFactory, uses concreate classes under LIB/Components
     MountainBicycleFactory.cs   => implements interface IBicycleFactory, uses concreate classes under LIB/Components

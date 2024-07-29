@@ -8,7 +8,7 @@ and concrete builders based on the builder interface to produce specific product
 
 -----------------------------------------------------------------------------------------------------
 
-DP.P010.ReportBuild_BuilderPattern.ConsoleApp
+DP.P010.ReportBuild_Creational_BuilderPattern.ConsoleApp
     Product
         IComputerProduct
         ComputerProduct

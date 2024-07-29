@@ -16,7 +16,7 @@ Still using the class library: DP.BicycleBuildBase
     Check: 004-BikeBuild-NoPattern.txt 
 
 Class diagram is placed in the doucments folder
-    Check: 006-BikeBuild-FactoryMethodPattern Class-Diagram.pdf
+    Check: 006-BikeBuild-Creational-FactoryMethodPattern Class-Diagram.pdf
 
 DP.BicycleBuildBase 
     IBicycle ew interface created
@@ -33,7 +33,7 @@ DP.BicycleBuildBase
     RoadBike.cs
         updated ModelName
 
-DP.P006.BicycleBuild_FactoryMethodPattern.ConsoleApp
+DP.P006.BicycleBuild_Creational_FactoryMethodPattern.ConsoleApp
     BicycleCreator.cs
     AlpineCreator.cs
     DallasCreator

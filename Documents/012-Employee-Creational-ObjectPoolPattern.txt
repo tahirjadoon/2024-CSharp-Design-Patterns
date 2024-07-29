@@ -5,7 +5,7 @@ The client requests objects from the pool to use them and then releases them whe
 
 -----------------------------------------------------------------------------------------------------
 
-DP.P012.Employee_ObjectPoolPattern.ConsoleApp
+DP.P012.Employee_Creational_ObjectPoolPattern.ConsoleApp
 
 This uses the concurrent bag for the pool 
 

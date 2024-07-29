@@ -21,17 +21,17 @@ and concrete builders based on the builder interface to produce specific product
 
 Still using the class library: DP.BicycleBuildBase
     Check:  004-BikeBuild-NoPattern.txt [initial]
-            007-BikeBuild-AbstractFactoryPattern.txt [Components created]
+            007-BikeBuild-Creational-AbstractFactoryPattern.txt [Components created]
 
 Class diagram is placed in the doucments folder
-    Check: 008-BikeBuild-BuilderPattern Class-Diagram.pdf
+    Check: 008-BikeBuild-Creational-BuilderPattern Class-Diagram.pdf
 
 -----------------------------------------------------------------------------------------------------
 
 DP.BicycleBuildBase
     Use components created via 007-BikeBuild-AbstractFactoryPattern
 
-DP.P008.BikeBuild_BuilderPattern.ConsoleApp
+DP.P008.BikeBuild_Creational_BuilderPattern.ConsoleApp
     
     builders will be producing – that is, the product which is any type of bicycle
         IBicycleProduct.cs 

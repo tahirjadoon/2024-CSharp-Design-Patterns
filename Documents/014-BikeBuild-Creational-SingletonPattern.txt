@@ -6,7 +6,7 @@ Constructor is private
 
 -----------------------------------------------------------------------------------------------------
 
-DP.P014.BikeBuild_SingletonPattern.ConsoleApp
+DP.P014.BikeBuild_Creational_SingletonPattern.ConsoleApp
 
 This project is built on top of Object Pool Pattern. 
 
