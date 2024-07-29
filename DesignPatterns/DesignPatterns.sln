@@ -15,25 +15,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.BicycleBuildBase", "DP.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P004.BicycleBuild_NoPattern.ConsoleApp", "DP.P004.BicycleBuild_NoPattern.ConsoleApp\DP.P004.BicycleBuild_NoPattern.ConsoleApp.csproj", "{00EE0B75-2E3F-4CF1-A23D-C1D48F55250F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp", "DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp\DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp.csproj", "{941240FD-33E4-4CF8-8661-92BC5776509E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P005.BicycleBuild_Creational_SimpleFactoryPattern.ConsoleApp", "DP.P005.BicycleBuild_SimpleFactoryPattern.ConsoleApp\DP.P005.BicycleBuild_Creational_SimpleFactoryPattern.ConsoleApp.csproj", "{941240FD-33E4-4CF8-8661-92BC5776509E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P006.BicycleBuild_FactoryMethodPattern.ConsoleApp", "DP.P006.BicycleBuild_FactoryMethodPattern.ConsoleApp\DP.P006.BicycleBuild_FactoryMethodPattern.ConsoleApp.csproj", "{AE821DE0-EC81-454E-8142-E3853D0722F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P006.BicycleBuild_Creational_FactoryMethodPattern.ConsoleApp", "DP.P006.BicycleBuild_FactoryMethodPattern.ConsoleApp\DP.P006.BicycleBuild_Creational_FactoryMethodPattern.ConsoleApp.csproj", "{AE821DE0-EC81-454E-8142-E3853D0722F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp", "DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp\DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp.csproj", "{3E3CCC44-549C-4E2B-B7A4-F9ACB3DC4CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P007.BikeBuild_Creational_AbstractFactoryPattern.ConsoleApp", "DP.P007.BikeBuild_AbstractFactoryPattern.ConsoleApp\DP.P007.BikeBuild_Creational_AbstractFactoryPattern.ConsoleApp.csproj", "{3E3CCC44-549C-4E2B-B7A4-F9ACB3DC4CDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P008.BikeBuild_BuilderPattern.ConsoleApp", "DP.P008.BikeBuild_BuilderPattern.ConsoleApp\DP.P008.BikeBuild_BuilderPattern.ConsoleApp.csproj", "{FC3EB290-293C-49B2-A922-EEDCEAB7ED05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P008.BikeBuild_Creational_BuilderPattern.ConsoleApp", "DP.P008.BikeBuild_BuilderPattern.ConsoleApp\DP.P008.BikeBuild_Creational_BuilderPattern.ConsoleApp.csproj", "{FC3EB290-293C-49B2-A922-EEDCEAB7ED05}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P009.LaptopBuild_BuilderPattern.ConsoleApp", "DP.P009.LaptopBuild_BuilderPattern.ConsoleApp\DP.P009.LaptopBuild_BuilderPattern.ConsoleApp.csproj", "{B12A8263-A639-4940-8C2D-694B3AC075B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P009.LaptopBuild_Creational_BuilderPattern.ConsoleApp", "DP.P009.LaptopBuild_BuilderPattern.ConsoleApp\DP.P009.LaptopBuild_Creational_BuilderPattern.ConsoleApp.csproj", "{B12A8263-A639-4940-8C2D-694B3AC075B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P010.ReportBuild_BuilderPattern.ConsoleApp", "DP.P010.ReportBuild_BuilderPattern.ConsoleApp\DP.P010.ReportBuild_BuilderPattern.ConsoleApp.csproj", "{CFC19B80-C7AB-4D9C-8291-6042B8E4880A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P010.ReportBuild_Creational_BuilderPattern.ConsoleApp", "DP.P010.ReportBuild_BuilderPattern.ConsoleApp\DP.P010.ReportBuild_Creational_BuilderPattern.ConsoleApp.csproj", "{CFC19B80-C7AB-4D9C-8291-6042B8E4880A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp", "DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp\DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp.csproj", "{EAF14807-26F6-452E-8F53-FCBB17284E2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P011.BikeBuild-Creational-ObjectPoolPattern.ConsoleApp", "DP.P011.BikeBuild-ObjectPoolPattern.ConsoleApp\DP.P011.BikeBuild-Creational-ObjectPoolPattern.ConsoleApp.csproj", "{EAF14807-26F6-452E-8F53-FCBB17284E2E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P012.Employee_ObjectPoolPattern.ConsoleApp", "DP.P012.Employee_ObjectPoolPattern.ConsoleApp\DP.P012.Employee_ObjectPoolPattern.ConsoleApp.csproj", "{EF87C3A3-48BC-4E57-BB5E-007CD6883417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P012.Employee_Creational_ObjectPoolPattern.ConsoleApp", "DP.P012.Employee_ObjectPoolPattern.ConsoleApp\DP.P012.Employee_Creational_ObjectPoolPattern.ConsoleApp.csproj", "{EF87C3A3-48BC-4E57-BB5E-007CD6883417}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp", "DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp\DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp.csproj", "{A166E4F9-8D12-4155-B8BA-CAC68EDF067C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P013.Employee_MaxObjts_Creational_ObjectPoolPattern.ConsoleApp", "DP.P013.Employee_MaxObjts_ObjectPoolPattern.ConsoleApp\DP.P013.Employee_MaxObjts_Creational_ObjectPoolPattern.ConsoleApp.csproj", "{A166E4F9-8D12-4155-B8BA-CAC68EDF067C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P014.BikeBuild_SingletonPattern.ConsoleApp", "DP.P014.BikeBuild_SingletonPattern.ConsoleApp\DP.P014.BikeBuild_SingletonPattern.ConsoleApp.csproj", "{290D0569-5F4A-4CD1-BE69-FD1F65C48BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P014.BikeBuild_Creational_SingletonPattern.ConsoleApp", "DP.P014.BikeBuild_SingletonPattern.ConsoleApp\DP.P014.BikeBuild_Creational_SingletonPattern.ConsoleApp.csproj", "{290D0569-5F4A-4CD1-BE69-FD1F65C48BE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01Creational", "01Creational", "{30B4396F-F821-4735-91B4-87E98A7FF3DA}"
 EndProject
