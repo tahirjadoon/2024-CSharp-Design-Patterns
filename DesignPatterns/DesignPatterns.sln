@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P014.BikeBuild_Singleton
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01Creational", "01Creational", "{30B4396F-F821-4735-91B4-87E98A7FF3DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Structural", "02 Structural", "{C9BA5758-6869-4D51-8C44-1F3E8DB14D8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
