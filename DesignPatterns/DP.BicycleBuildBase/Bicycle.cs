@@ -19,12 +19,12 @@ public abstract class Bicycle : IBicycle
         BuildStatus = ZManufacturingStatus.Specified;
     }
 
-    public ZBikeModelNames ModelName { get; init; }
+    public ZBikeModelNames ModelName { get; set; }
     public int Year { get; set; }
     public string SerialNumber { get; }
-    public ZBicyclePaintColors Color { get; init; }
-    public ZBicycleGeometries Geometry { get; init; }
-    public ZSuspensionTypes Suspension { get; init; }
+    public ZBicyclePaintColors Color { get; set; }
+    public ZBicycleGeometries Geometry { get; set; }
+    public ZSuspensionTypes Suspension { get; set; }
     public ZManufacturingStatus BuildStatus { get; set; }
 
     public void Build()

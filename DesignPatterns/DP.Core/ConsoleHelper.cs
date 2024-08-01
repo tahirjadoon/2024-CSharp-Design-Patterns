@@ -56,5 +56,12 @@ public class ConsoleHelper
         }
 
     }
+
+    public static void DrawLine(ConsoleColor? color = null)
+    {
+        WriteEmptyLine();
+        WriteLine("-----------------------------------------", color);
+        WriteEmptyLine();
+    }
 }
 

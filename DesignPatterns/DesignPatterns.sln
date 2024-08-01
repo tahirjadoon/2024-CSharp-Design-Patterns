@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01Creational", "01Creationa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02Structural", "02Structural", "{C9BA5758-6869-4D51-8C44-1F3E8DB14D8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P015.BikeBuild_Structural_DecoratorPattern.ConsoleApp", "DP.P015.BikeBuild_Structural_DecoratorPattern.ConsoleApp\DP.P015.BikeBuild_Structural_DecoratorPattern.ConsoleApp.csproj", "{4A810D0D-5D3B-4E1F-9342-4F294B2761DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{290D0569-5F4A-4CD1-BE69-FD1F65C48BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{290D0569-5F4A-4CD1-BE69-FD1F65C48BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{290D0569-5F4A-4CD1-BE69-FD1F65C48BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A810D0D-5D3B-4E1F-9342-4F294B2761DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A810D0D-5D3B-4E1F-9342-4F294B2761DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A810D0D-5D3B-4E1F-9342-4F294B2761DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A810D0D-5D3B-4E1F-9342-4F294B2761DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +134,7 @@ Global
 		{EF87C3A3-48BC-4E57-BB5E-007CD6883417} = {30B4396F-F821-4735-91B4-87E98A7FF3DA}
 		{A166E4F9-8D12-4155-B8BA-CAC68EDF067C} = {30B4396F-F821-4735-91B4-87E98A7FF3DA}
 		{290D0569-5F4A-4CD1-BE69-FD1F65C48BE8} = {30B4396F-F821-4735-91B4-87E98A7FF3DA}
+		{4A810D0D-5D3B-4E1F-9342-4F294B2761DB} = {C9BA5758-6869-4D51-8C44-1F3E8DB14D8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DBF2B5D-D98B-4E2A-9BDC-29068B555FAE}

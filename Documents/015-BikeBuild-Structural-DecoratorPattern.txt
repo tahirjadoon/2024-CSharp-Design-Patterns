@@ -1,0 +1,23 @@
+-----------------------------------------------------------------------------------------------------
+
+The Decorator pattern allows you to add properties and methods to a class without touching the
+original class, while still honoring any concrete implementations.
+
+This pattern provide a flexible alternative to subclassing for extending functionality.
+
+-----------------------------------------------------------------------------------------------------
+
+Class Diagram
+    015-BikeBuild-Structural-DecoratorPattern Class-Diagram.pdf
+
+
+DP.BicycleBuildBase
+    1. IBicycle : nothing changed here
+    2. Bicycle : nothing changed here
+
+DP.P015.BikeBuild_Structural_DecoratorPattern.ConsoleApp
+    3. The AbstractDecoratorClass. Note that it uses composition to include a protected property, which contains a reference to a class that implements IBicycle.
+    4. The Decorator classes. Here we have two: DocumentedBicycle and NotifyingBicycle.
+        We can have as many as need. We can stack them in the implementation, making it
+        possible to have a Bicycle object with either a manual printer or a notifier, or both or neither
+    
