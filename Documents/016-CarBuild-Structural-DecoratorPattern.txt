@@ -1,0 +1,20 @@
+-----------------------------------------------------------------------------------------------------
+
+The Decorator pattern allows you to add properties and methods to a class without touching the
+original class, while still honoring any concrete implementations.
+
+This pattern provide a flexible alternative to subclassing for extending functionality.
+
+-----------------------------------------------------------------------------------------------------
+
+FlowChart
+    016-CarBuild-Structural-DecoratorPattern Flow-Chart.pdf 
+
+DP.P016.CarBuild_Structural_DecoratorPattern.ConsoleApp
+    ICar
+    BMWCar
+
+    Decorator
+        CarDecorator
+        DieselCarDecorator
+        PetrolCarDecorator 
