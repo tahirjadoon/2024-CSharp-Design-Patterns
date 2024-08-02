@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P016.CarBuild_Structural
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P017.Post_Structural_DecoratorPattern.ConsoleApp", "DP.P017.Post_Structural_DecoratorPattern.ConsoleApp\DP.P017.Post_Structural_DecoratorPattern.ConsoleApp.csproj", "{D0472223-FC84-4046-9048-78C3EB82F18C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P018.LibrarySimple_Structural_DecoatorPattern.ConsoleApp", "DP.P018.LibrarySimple_Structural_DecoatorPattern.ConsoleApp\DP.P018.LibrarySimple_Structural_DecoatorPattern.ConsoleApp.csproj", "{4A6ABBEB-2773-4F08-BD03-01352979FD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.P018.LibrarySimple_Structural_DecoatorPattern.ConsoleApp", "DP.P018.LibrarySimple_Structural_DecoatorPattern.ConsoleApp\DP.P018.LibrarySimple_Structural_DecoatorPattern.ConsoleApp.csproj", "{4A6ABBEB-2773-4F08-BD03-01352979FD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.P019.LibraryOptmzd_Structural_DecoratorPattern.ConsoleApp", "DP.P019.LibraryOptmzd_Structural_DecoratorPattern.ConsoleApp\DP.P019.LibraryOptmzd_Structural_DecoratorPattern.ConsoleApp.csproj", "{1AC1676B-DB85-4B8E-BF43-543B18E0E7B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +135,10 @@ Global
 		{4A6ABBEB-2773-4F08-BD03-01352979FD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6ABBEB-2773-4F08-BD03-01352979FD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6ABBEB-2773-4F08-BD03-01352979FD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC1676B-DB85-4B8E-BF43-543B18E0E7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC1676B-DB85-4B8E-BF43-543B18E0E7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC1676B-DB85-4B8E-BF43-543B18E0E7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC1676B-DB85-4B8E-BF43-543B18E0E7B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +162,7 @@ Global
 		{1105410E-12AB-41C3-9FBF-965FF7480777} = {C9BA5758-6869-4D51-8C44-1F3E8DB14D8E}
 		{D0472223-FC84-4046-9048-78C3EB82F18C} = {C9BA5758-6869-4D51-8C44-1F3E8DB14D8E}
 		{4A6ABBEB-2773-4F08-BD03-01352979FD50} = {C9BA5758-6869-4D51-8C44-1F3E8DB14D8E}
+		{1AC1676B-DB85-4B8E-BF43-543B18E0E7B9} = {C9BA5758-6869-4D51-8C44-1F3E8DB14D8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DBF2B5D-D98B-4E2A-9BDC-29068B555FAE}
