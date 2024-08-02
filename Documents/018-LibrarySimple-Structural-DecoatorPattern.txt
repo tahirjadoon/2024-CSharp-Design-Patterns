@@ -1,0 +1,17 @@
+-----------------------------------------------------------------------------------------------------
+
+The Decorator pattern allows you to add properties and methods to a class without touching the
+original class, while still honoring any concrete implementations.
+
+This pattern provide a flexible alternative to subclassing for extending functionality.
+
+-----------------------------------------------------------------------------------------------------
+
+DP.P018.LibrarySimple_Structural_DecoatorPattern.ConsoleApp
+    AbstractLibraryItem
+    Book
+    Video
+
+    Decorator 
+        AbstractLibraryItemDecorator
+        BorrowableDecorator
