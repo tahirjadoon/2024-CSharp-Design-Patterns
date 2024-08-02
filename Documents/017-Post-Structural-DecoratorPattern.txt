@@ -1,0 +1,28 @@
+-----------------------------------------------------------------------------------------------------
+
+The Decorator pattern allows you to add properties and methods to a class without touching the
+original class, while still honoring any concrete implementations.
+
+This pattern provide a flexible alternative to subclassing for extending functionality.
+
+-----------------------------------------------------------------------------------------------------
+
+A post call is made to 
+    https://jsonplaceholder.typicode.com/posts/1
+
+It returns a response model
+    {
+        "userId": 1,
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    }
+
+DP.P017.Post_Structural_DecoratorPattern.ConsoleApp
+    PostResponseModel: model for above json response
+    IPostService
+    PostService
+
+    Decorator
+        AbstractPostServiceDecorator
+        PostLoggingDecorator
